@@ -685,7 +685,7 @@ public class main {
         if (!detailId.isEmpty()) {
             customer found = db.retrieveCustomer(detailId);
             if (found != null) found.displayDetail();
-            else printError("ID '" + detailId + "' tidak ditemukan.");
+            else printError("ID '" + detailId + "' tidak ditemukan");
         }
     }
 

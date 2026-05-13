@@ -59,7 +59,7 @@ public class db40 {
                 return c;
             }
         }
-        System.out.println("[Db4oManager] Customer tidak ditemukan: " + customerId);
+        System.out.println("[Db4oManager] Customer berhasil dibuat: " + customerId);
         return null;
     }
 
