@@ -175,4 +175,11 @@ Saat aplikasi dijalankan pertama kali, tiga customer berikut otomatis tersedia:
 
 ## Author
 
-Dikembangkan sebagai bagian dari tugas UTS mata kuliah **Sistem Basis Data Lanjut (SBDL)**.
+Dikembangkan sebagai Kelompok 1 yang berisikan anggota : - Rizky Adinugraha Imansyah
+                                                         - Iyaas Nurfath
+                                                         - Juan Hafid Setiawan
+                                                         - Raffi Pasha Ramadhan
+dari tugas UTS mata kuliah **Sistem Basis Data Lanjut (SBDL)**.
+
+Dokumentasi Kelompok :
+<img width="720" height="1280" alt="Image" src="https://github.com/user-attachments/assets/44c118c2-191e-4f38-a018-6335c3a1ea33" />
