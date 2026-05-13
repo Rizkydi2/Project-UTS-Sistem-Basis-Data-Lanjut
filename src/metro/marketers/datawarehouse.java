@@ -68,6 +68,10 @@ public class datawarehouse {
     public void setStorageType(String storageType)        { this.storageType = storageType; }
     public void setBackupStatus(String backupStatus)      { this.backupStatus = backupStatus; }
 
+    public void removeCustomer(String customerId) {
+        customers.removeIf(c -> c.getCustomerId().equals(customerId));
+    }
+
     public void addcustomer(customer c) {
         if (c == null) {
             System.out.println("[DataWarehouse] ERROR: Customer null.");

@@ -798,6 +798,7 @@ public class main {
         System.out.print("  Konfirmasi hapus? (y/n): ");
         if (sc.nextLine().trim().equalsIgnoreCase("y")) {
             db.deleteCustomer(id);
+            warehouse.removeCustomer(id);
             printSuccess("Customer '" + id + "' berhasil dihapus.");
         } else {
             System.out.println("  Penghapusan dibatalkan.");
